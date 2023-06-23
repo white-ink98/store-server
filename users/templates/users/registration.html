@@ -1,0 +1,81 @@
+{% extends 'users/base.html' %}
+
+{% block content %}
+<main>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-7">
+                <div class="alert alert-warning alert-dismissible fade show" role="alert"
+                     style="margin-top: 50px;">
+                    <strong>Holy guacamole!</strong> Ви повинні check in on some of fields below.
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="card shadow-lg border-0 rounded-lg mt-5">
+                    <div class="card-header"><h3 class="text-center font-weight-light my-4">Створити аккаунт</h3>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="form-row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="small mb-1" for="inputFirstName">Ім'я</label>
+                                        <input class="form-control py-4" id="inputFirstName" type="text"
+                                               placeholder="Введіть ім'я"/>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="small mb-1" for="inputLastName">Прізвище</label>
+                                        <input class="form-control py-4" id="inputLastName" type="text"
+                                               placeholder="Введіть прізвище"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-md-6">
+                                    <label class="small mb-1" for="inputUsername">Ім'я користувача</label>
+                                    <input class="form-control py-4" id="inputUsername" type="text"
+                                           aria-describedby="usernameHelp"
+                                           placeholder="Введіть ім'я користувача"/>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="small mb-1" for="inputEmailAddress">Адреса електронної
+                                        пошти</label>
+                                    <input class="form-control py-4" id="inputEmailAddress" type="email"
+                                           aria-describedby="emailHelp"
+                                           placeholder="Введіть адресу електронної пошти"/>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                               <div class="col-md-6">
+                                   <div class="form-group">
+                                       <label class="small mb-1" for="inputPassword">Пароль</label>
+                                       <input class="form-control py-4" id="inputPassword" type="password"
+                                              placeholder="Введіть пароль"/>
+                                   </div>
+                               </div>
+                               <div class="col-md-6">
+                                   <div class="form-group">
+                                       <label class="small mb-1" for="inputConfirmPassword">Підтвердження
+                                           пароля</label>
+                                       <input class="form-control py-4" id="inputConfirmPassword"
+                                              type="password" placeholder="Підтвердіть пароль"/>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="form-group mt-4 mb-0">
+                               <input class="btn btn-primary btn-block" type="submit" value="Створити обліковий запис">
+                           </div>
+                       </form>
+                   </div>
+                   <div class="card-footer text-center">
+                       <div class="small"><a href="login.html">Вже аккаунт? Авторизуватись</a></div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+</main>
+{% endblock content %}
