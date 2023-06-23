@@ -71,7 +71,11 @@
                        </form>
                    </div>
                    <div class="card-footer text-center">
-                       <div class="small"><a href="login.html">Вже аккаунт? Авторизуватись</a></div>
+                       <div class="small">
+                        <a href="{% url 'users:login' %}">
+                        Вже є аккаунт? Авторизуватись
+                        </a>
+                        </div>
                    </div>
                </div>
            </div>
