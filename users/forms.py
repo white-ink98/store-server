@@ -1,9 +1,7 @@
 from django import forms
-from django.contrib.auth.forms import (AuthenticationForm, UserChangeForm,
-                                       UserCreationForm)
+from django.contrib.auth.forms import AuthenticationForm, UserChangeForm, UserCreationForm
 
 from users.models import User
-from users.tasks import send_email_verification
 
 
 class UserLoginForm(AuthenticationForm):
@@ -38,32 +36,7 @@ class UserRegistrationForm(UserCreationForm):
 
     def save(self, commit=True):
         user = super(UserRegistrationForm, self).save(commit=True)
-        send_email_verification.delay(user.id)
-        return user
-
-
-class UserRegistrationForm(UserCreationForm):
-    first_name = forms.CharField(widget=forms.TextInput(attrs={
-        'class': 'form-control py-4', 'placeholder': "Введіть ім'я"}))
-    last_name = forms.CharField(widget=forms.TextInput(attrs={
-        'class': 'form-control py-4', 'placeholder': "Введіть прізвище"}))
-    username = forms.CharField(widget=forms.TextInput(attrs={
-        'class': 'form-control py-4', 'placeholder': "Введіть ім'я користувача"}))
-    email = forms.CharField(widget=forms.EmailInput(attrs={
-        'class': 'form-control py-4', 'placeholder': "Введіть електронну пошту"}))
-    password1 = forms.CharField(widget=forms.PasswordInput(attrs={
-        'class': 'form-control py-4', 'placeholder': "Введіть пароль"}))
-    password2 = forms.CharField(widget=forms.PasswordInput(attrs={
-        'class': 'form-control py-4', 'placeholder': "Підтвердіть пароль"}))
-
-    class Meta:
-        model = User
-        fields = ('first_name', 'last_name', 'username',
-                  'email', 'password1', 'password2')
-
-    def save(self, commit=True):
-        user = super(UserRegistrationForm, self).save(commit=True)
-        send_email_verification.delay(user.id)
+        # send_email_verification.delay(user.id)
         return user
 
 
