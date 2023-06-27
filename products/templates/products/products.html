@@ -71,6 +71,12 @@
                                     <h5>{{ product.price }} грн.</h5>
                                     <p class="card-text">{{ product.description }}</p>
                                 </div>
+                                <div class="card-footer text-center">
+                                    <a cla ss="btn btn-outline-success"
+                                       href="{% url 'products:basket_add' product.id %}">
+                                        Відправити в корзину
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     {% endfor %}
