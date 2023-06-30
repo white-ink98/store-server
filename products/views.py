@@ -16,12 +16,6 @@ class IndexView(TemplateView):
         context["title"] = 'Store'
         return context
 
-# def index(request):
-#    context = {
-#        'title': 'Store',
-#    }
-#    return render(request, 'products/index.html', context)
-
 
 class ProductsListView(ListView):
     model = Product
@@ -38,29 +32,6 @@ class ProductsListView(ListView):
         context["title"] = 'Store - Каталог'
         context["categories"] = ProductCategory.objects.all()
         return context
-
-
-# def products(request, category_id=None, page_number=1):
-#
-#    #        if category_id:
-#    #               # category = ProductCategory.objects.get(id=category_id)
-#    #           products = Product.objects.filter(category_id=category_id)
-#    #        else:
-#    #           products = Product.objects.all()
-#
-#    products = Product.objects.filter(
-#        category_id=category_id) if category_id else Product.objects.all()
-#    per_page = 3
-#    paginator = Paginator(products, per_page)
-#    products_paginator = paginator.page(page_number)
-#
-#    context = {
-#        'title': 'Store - Каталог',
-#        'categories': ProductCategory.objects.all(),
-#        'products': products_paginator,
-#
-#    }
-#    return render(request, 'products/products.html', context)
 
 
 @login_required
@@ -84,3 +55,32 @@ def basket_remove(request, basket_id):
     basket = Basket.objects.get(id=basket_id)
     basket.delete()
     return HttpResponseRedirect(request.META['HTTP_REFERER'])
+
+# def index(request):
+#    context = {
+#        'title': 'Store',
+#    }
+#    return render(request, 'products/index.html', context)
+
+
+# def products(request, category_id=None, page_number=1):
+#
+#    #        if category_id:
+#    #               # category = ProductCategory.objects.get(id=category_id)
+#    #           products = Product.objects.filter(category_id=category_id)
+#    #        else:
+#    #           products = Product.objects.all()
+#
+#    products = Product.objects.filter(
+#        category_id=category_id) if category_id else Product.objects.all()
+#    per_page = 3
+#    paginator = Paginator(products, per_page)
+#    products_paginator = paginator.page(page_number)
+#
+#    context = {
+#        'title': 'Store - Каталог',
+#        'categories': ProductCategory.objects.all(),
+#        'products': products_paginator,
+#
+#    }
+#    return render(request, 'products/products.html', context)
