@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="592f9f5d-0e5b-45ce-a81f-f412ecffbcc2" name="Changes" comment="add TitleMixin, emailverification">
+    <list default="true" id="592f9f5d-0e5b-45ce-a81f-f412ecffbcc2" name="Changes" comment="add emailverification message and code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +95,7 @@
       <workItem from="1688746492691" duration="4301000" />
       <workItem from="1688752036000" duration="8721000" />
       <workItem from="1688809259495" duration="2457000" />
-      <workItem from="1688814903364" duration="8132000" />
+      <workItem from="1688814903364" duration="14183000" />
     </task>
     <task id="LOCAL-00001" summary="add mymixin( class TitleMixin) to views in users/products">
       <option name="closed" value="true" />
@@ -136,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688818168546</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add emailverification message and code">
+      <option name="closed" value="true" />
+      <created>1688829028298</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688829028298</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +173,7 @@
     <MESSAGE value="add email verification" />
     <MESSAGE value="settings.py" />
     <MESSAGE value="add TitleMixin, emailverification" />
-    <option name="LAST_COMMIT_MESSAGE" value="add TitleMixin, emailverification" />
+    <MESSAGE value="add emailverification message and code" />
+    <option name="LAST_COMMIT_MESSAGE" value="add emailverification message and code" />
   </component>
 </project>
