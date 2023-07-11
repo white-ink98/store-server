@@ -19,10 +19,7 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import include, path
 
-# from products.views import index
 from products.views import IndexView
-
-# from store import settings
 
 
 urlpatterns = [
@@ -31,6 +28,7 @@ urlpatterns = [
     path('', IndexView.as_view(), name='index'),
     path('products/', include('products.urls', namespace='products')),
     path('users/', include('users.urls', namespace='users')),
+    path('accounts/', include('allauth.urls')),
 ]
 
 if settings.DEBUG == True:

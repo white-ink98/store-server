@@ -39,9 +39,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
+
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.github',
+
     'products',
     'users',
-
 ]
 
 MIDDLEWARE = [
@@ -146,12 +152,28 @@ LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
 
 # Sending emails
-#EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'Store-server98@gmail.com'
-#EMAIL_HOST_USER = 'pythontestserver98@gmail.com'
-EMAIL_HOST_PASSWORD = 'ert'
-#EMAIL_HOST_PASSWORD = 'gpklg98976543221'
-EMAIL_USE_SSL = True
+# EMAIL_HOST = 'smtp.gmail.com'
+# EMAIL_PORT = 587
+# EMAIL_HOST_USER = 'Store-server98@gmail.com'
+##EMAIL_HOST_USER = 'pythontestserver98@gmail.com'
+# EMAIL_HOST_PASSWORD = 'ert'
+##EMAIL_HOST_PASSWORD = 'gpklg98976543221'
+# EMAIL_USE_SSL = True
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+# OAuth
+
+AUTHENTICATION_BACKENDS = [
+    # Needed to login by username in Django admin, regardless of `allauth`
+    'django.contrib.auth.backends.ModelBackend',
+    # `allauth` specific authentication methods, such as login by e-mail
+    'allauth.account.auth_backends.AuthenticationBackend',
+]
+
+SITE_ID = 1
+
+# Provider specific settings
+SOCIALACCOUNT_PROVIDERS = {
+
+}

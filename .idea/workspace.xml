@@ -4,24 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="592f9f5d-0e5b-45ce-a81f-f412ecffbcc2" name="Changes" comment="emailverification send console mail">
+    <list default="true" id="592f9f5d-0e5b-45ce-a81f-f412ecffbcc2" name="Changes" comment="postgresql, context_processors.py(settings.py), flake8, isort">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/migrations/0002_basket.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/migrations/0002_basket.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/store/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/migrations/0002_user_is_verified_email_emailverification.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/migrations/0002_user_is_verified_email_emailverification.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +104,7 @@
       <workItem from="1688989868094" duration="557000" />
       <workItem from="1688992722522" duration="4055000" />
       <workItem from="1689001628152" duration="1481000" />
-      <workItem from="1689061652710" duration="4268000" />
+      <workItem from="1689061652710" duration="7023000" />
     </task>
     <task id="LOCAL-00001" summary="add mymixin( class TitleMixin) to views in users/products">
       <option name="closed" value="true" />
@@ -175,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688839257096</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="postgresql, context_processors.py(settings.py), flake8, isort">
+      <option name="closed" value="true" />
+      <created>1689068613352</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1689068613352</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +200,7 @@
     <MESSAGE value="add TitleMixin, emailverification" />
     <MESSAGE value="add emailverification message and code" />
     <MESSAGE value="emailverification send console mail" />
-    <option name="LAST_COMMIT_MESSAGE" value="emailverification send console mail" />
+    <MESSAGE value="postgresql, context_processors.py(settings.py), flake8, isort" />
+    <option name="LAST_COMMIT_MESSAGE" value="postgresql, context_processors.py(settings.py), flake8, isort" />
   </component>
 </project>
