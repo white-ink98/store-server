@@ -67,6 +67,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'products.context_processors.baskets',
             ],
         },
     },
@@ -79,9 +80,13 @@ WSGI_APPLICATION = 'store.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+    "default": {
+        "ENGINE": "django.db.backends.postgresql_psycopg2",
+        "NAME": "store_server",
+        "USER": "postgres",
+        "PASSWORD": "ert",
+        "HOST": "localhost",
+        "PORT": "5432",
     }
 }
 
@@ -141,5 +146,12 @@ LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
 
 # Sending emails
+#EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'Store-server98@gmail.com'
+#EMAIL_HOST_USER = 'pythontestserver98@gmail.com'
+EMAIL_HOST_PASSWORD = 'ert'
+#EMAIL_HOST_PASSWORD = 'gpklg98976543221'
+EMAIL_USE_SSL = True
