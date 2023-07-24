@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="592f9f5d-0e5b-45ce-a81f-f412ecffbcc2" name="Changes" comment="django allauth(social) account authentication- settings.py/urls.py">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/products_images/Adidas-hoodie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/products_images/Black-Dr-Martens-shoes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/products_images/Black-Nike-Heritage-backpack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/products_images/Blue-jacket-The-North-Face.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/products_images/Brown-sports-oversized-top-ASOS-DESIGN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/products_images/Dark-blue-wide-leg-ASOs-DESIGN-trousers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/fixtures/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/fixtures/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/fixtures/goods.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/tests.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,11 +48,12 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/white_ink/Desktop/store server&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/white-ink/Desktop/PycharmProjects/store-server/products/fixtures&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -57,7 +68,27 @@
       <recent name="$PROJECT_DIR$/products/fixtures" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django tests.Test: products.tests.ProductsListViewTestCase">
+    <configuration name="Test: products.tests.ProductsListViewTestCase" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="store-server" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="products.tests.ProductsListViewTestCase" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="store server" type="Python.DjangoServer" factoryName="Django server">
       <module name="store server" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,6 +113,34 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="store-server" type="Python.DjangoServer" factoryName="Django server">
+      <module name="store-server" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Django tests.Test: products.tests.ProductsListViewTestCase" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -104,6 +163,13 @@
       <workItem from="1688992722522" duration="4055000" />
       <workItem from="1689001628152" duration="1481000" />
       <workItem from="1689061652710" duration="11025000" />
+      <workItem from="1690101690551" duration="1939000" />
+      <workItem from="1690103979136" duration="118000" />
+      <workItem from="1690106460651" duration="2647000" />
+      <workItem from="1690125806141" duration="829000" />
+      <workItem from="1690141578692" duration="1533000" />
+      <workItem from="1690145055874" duration="1237000" />
+      <workItem from="1690186961654" duration="6486000" />
     </task>
     <task id="LOCAL-00001" summary="add mymixin( class TitleMixin) to views in users/products">
       <option name="closed" value="true" />
@@ -210,5 +276,8 @@
     <MESSAGE value="postgresql, context_processors.py(settings.py), flake8, isort" />
     <MESSAGE value="django allauth(social) account authentication- settings.py/urls.py" />
     <option name="LAST_COMMIT_MESSAGE" value="django allauth(social) account authentication- settings.py/urls.py" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/store_server$Test__products_tests_ProductsListViewTestCase.coverage" NAME="Test: products.tests.ProductsListViewTestCase Coverage Results" MODIFIED="1690189883341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
