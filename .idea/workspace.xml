@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="592f9f5d-0e5b-45ce-a81f-f412ecffbcc2" name="Changes" comment="django allauth(social) account authentication- settings.py/urls.py">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="592f9f5d-0e5b-45ce-a81f-f412ecffbcc2" name="Changes" comment="tests.py for products/users">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products_images/Adidas-hoodie.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products_images/Black-Dr-Martens-shoes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products_images/Black-Nike-Heritage-backpack.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products_images/Blue-jacket-The-North-Face.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products_images/Brown-sports-oversized-top-ASOS-DESIGN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products_images/Dark-blue-wide-leg-ASOs-DESIGN-trousers.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/fixtures/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/fixtures/data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/fixtures/goods.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/products/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +26,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="0c06a440-dce4-40af-8ac6-d9f15e837849" />
+        <option name="url" value="https://github.com/white-ink98/store-server.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectId" id="2RyOVswwlHz7hqJU5tttVoGvtJx" />
   <component name="ProjectViewState">
@@ -169,7 +172,7 @@
       <workItem from="1690125806141" duration="829000" />
       <workItem from="1690141578692" duration="1533000" />
       <workItem from="1690145055874" duration="1237000" />
-      <workItem from="1690186961654" duration="6486000" />
+      <workItem from="1690186961654" duration="8564000" />
     </task>
     <task id="LOCAL-00001" summary="add mymixin( class TitleMixin) to views in users/products">
       <option name="closed" value="true" />
@@ -243,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689076390187</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="tests.py for products/users">
+      <option name="closed" value="true" />
+      <created>1690196576837</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1690196576865</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,7 +286,8 @@
     <MESSAGE value="emailverification send console mail" />
     <MESSAGE value="postgresql, context_processors.py(settings.py), flake8, isort" />
     <MESSAGE value="django allauth(social) account authentication- settings.py/urls.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="django allauth(social) account authentication- settings.py/urls.py" />
+    <MESSAGE value="tests.py for products/users" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests.py for products/users" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/store_server$Test__products_tests_ProductsListViewTestCase.coverage" NAME="Test: products.tests.ProductsListViewTestCase Coverage Results" MODIFIED="1690189883341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
